@@ -1,5 +1,6 @@
 # Problem Statement
-# Given a string with lowercase letters only, if you are allowed to replace no more than ‘k’ letters with any letter,
+# Given a string with lowercase letters only,
+# if you are allowed to replace no more than "k" letters with any letter,
 # find the length of the longest substring having the same letters after replacement.
 #
 # Example 1:
@@ -51,4 +52,5 @@ def main():
     print(length_of_longest_substring("abccde", 1))
 
 
-main()
+if __name__ == '__main__':
+    main()
